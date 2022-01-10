@@ -1,0 +1,77 @@
+html, body {
+  font-family: 'Nerko One', cursive;
+  color: #353c4d;
+  font-size: 20px;
+}
+
+html svg, html img, body svg, body img {
+  height: 15px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #55aa55;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  border-radius: 6px;
+  background: white;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 3px 6px;
+}
+
+.card--person .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__info:last-of-type {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.card__info img {
+  margin-left: 5px;
+}
+/*# sourceMappingURL=style.css.map */
